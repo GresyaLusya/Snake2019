@@ -12,11 +12,11 @@ namespace Snake
 
         public VerticalLine(int yUp, int yDown, int x, char sym)
         {
-            list1 = new List<Point>();
+            plist = new List<Point>();
             for (int i = yUp; i < yDown; i++)
             {
                 Point p1 = new Point(x, i, sym);
-                list1.Add(p1);
+                plist.Add(p1);
             }
         }
 
